@@ -11,7 +11,7 @@ export async function POST(request) {
 
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
     const model = genAI.getGenerativeModel({
-      model: "gemini-1.5-pro",
+      model: "gemini-1.5-flash",
       systemInstruction:
         'You are a receipt data extraction engine. Extract the merchant name, date, total amount, currency, infer a category (e.g. Groceries, Restaurant, Travel, Electronics, Healthcare, Utilities, Entertainment, Other), and extract all line items (name, price). Return ONLY a valid JSON object matching this exact structure: {"merchantName": "...", "date": "YYYY-MM-DD", "totalAmount": 0.00, "currency": "USD", "category": "...", "lineItems": [{"name": "...", "price": 0.00}]}. Strip all markdown formatting, do not wrap in ```json. Do not include any explanation or text outside the JSON object.',
     });
