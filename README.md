@@ -24,4 +24,5 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 If you would like to check out the website in the easiest way, just head over to this link and it will show you the receipt scanner website that I posted up here: 
 
-receipt-scanner-9lf6o959y-fah13441s-projects.vercel.app 
+[receipt-scanner-9lf6o959y-fah13441s-projects.vercel.app 
+](https://receipt-scanner-three-wheat.vercel.app?_vercel_share=AqRJiDtMoIJv8OgjQYF2NgdBRVqk9eAt)
